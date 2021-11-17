@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/btm_first"
+        android:title="Home"
+        android:icon="@drawable/home_24"/>
+
+    <item
+        android:id="@+id/btm_second"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard_24"/>
+
+    <item
+        android:id="@+id/btm_third"
+        android:title="Login"
+        android:icon="@drawable/ogin_24"/>
+
+    <item
+        android:id="@+id/btm_fourth"
+        android:title="Info"
+        android:icon="@drawable/arrow_back_24"/>
+
+</menu>

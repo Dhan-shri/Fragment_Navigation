@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_first"
+        android:title="First Fragment"/>
+
+    <item
+        android:id="@+id/nav_second"
+        android:title="Second Fragment"/>
+
+    <item
+        android:id="@+id/nav_third"
+        android:title="Third Fragment"/>
+
+    <item
+        android:id="@+id/nav_fourth"
+        android:title="Fourth Fragment"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Setting Fragment"/>
+
+    <item
+        android:id="@+id/nav_spinner"
+        android:title="Spinner fragment"/>
+
+
+
+</menu>

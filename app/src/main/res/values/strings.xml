@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Fragmentnavigation</string>
+    <!-- TODO:Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="text">A very warm welcome to you!
+
+          It is lovely to have you among us!
+
+
+
+         It is an honor to have such a hardworking fellow like you to join us! Welcome!
+        You are a wonderful person with a wonderful view of life.
+        Your companionship is always an opportunity to learn.
+        A warm welcome to you to join us!</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="State">
+        <item>Maharashtra</item>
+        <item>Madhyapradesh</item>
+        <item>Gujarat</item>
+        <item>Rajsthan</item>
+        <item>Karnataka</item>
+    </string-array>
+
+
+</resources>

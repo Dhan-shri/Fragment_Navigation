@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:background="@color/grey2"
+    android:layout_marginRight="10dp"
+    android:weightSum="9"
+    tools:context=".fragment.FourthFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/adress1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Adreess1 :-" />
+
+        <EditText
+            android:id="@+id/EditAdr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:background="@drawable/custom_input3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Adress line 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/adress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Adreess2 :-" />
+
+        <EditText
+            android:id="@+id/EditAdr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input3"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Adress line 2" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/locality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Locality   :-" />
+
+        <EditText
+            android:id="@+id/editLocality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/custom_input3"
+
+            android:hint="your locality" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="City        :-" />
+
+        <EditText
+            android:id="@+id/editCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_gravity="end"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/custom_input3"
+
+            android:hint="City name " />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/Pincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Pincode  :-" />
+
+        <EditText
+            android:id="@+id/editpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:ems="10"
+            android:background="@drawable/custom_input3"
+            android:inputType="textPersonName"
+            android:hint="Enter pincode" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="State      :-" />
+
+        <EditText
+            android:id="@+id/editState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_gravity="end"
+            android:ems="10"
+            android:background="@drawable/custom_input3"
+            android:inputType="textPersonName"
+            android:hint="State" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Country   :-" />
+
+        <EditText
+            android:id="@+id/editCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:ems="10"
+            android:background="@drawable/custom_input3"
+            android:inputType="textPersonName"
+            android:hint=" country  " />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnfourth"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:background="@color/grey"
+            android:text="Submit"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
